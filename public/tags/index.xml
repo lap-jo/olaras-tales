@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Olara&#39;s Tales</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Olara&#39;s Tales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Aug 2024 12:13:32 +0300</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>podcast</title>
+      <link>/tags/podcast/</link>
+      <pubDate>Wed, 14 Aug 2024 12:13:32 +0300</pubDate>
+      <guid>/tags/podcast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rugby</title>
+      <link>/tags/rugby/</link>
+      <pubDate>Wed, 14 Aug 2024 12:13:32 +0300</pubDate>
+      <guid>/tags/rugby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sports</title>
+      <link>/tags/sports/</link>
+      <pubDate>Wed, 14 Aug 2024 12:13:32 +0300</pubDate>
+      <guid>/tags/sports/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

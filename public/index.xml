@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Olara&#39;s Tales</title>
+    <link>/</link>
+    <description>Recent content on Olara&#39;s Tales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Aug 2024 12:13:32 +0300</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Former Rugby Cranes Captain Considers Calling It Quits</title>
+      <link>/posts/2024/former-rugby-cranes-captain-considers-calling-it-quits/</link>
+      <pubDate>Wed, 14 Aug 2024 12:13:32 +0300</pubDate>
+      <guid>/posts/2024/former-rugby-cranes-captain-considers-calling-it-quits/</guid>
+      <description>The maestro, the conductor, the architect, the 🐐, Captain fantastic and now the revolutionary. Without mentioning a name, many would know who you’re talking about.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Fri, 06 Oct 2023 20:37:29 +0700</pubDate>
+      <guid>/about/</guid>
+      <description>Massa tellus sit, quisque et ultrices, amet praesent leo quisque. Arcu quam place rat, convallis efficitur convallis, feugiat nulla est lacus.</description>
+    </item>
+  </channel>
+</rss>
