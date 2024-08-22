@@ -1,0 +1,71 @@
+backend:
+  name: git-gateway
+  branch: main
+  repo: https://github.com/lap-jo/olaras-tales
+  commit_messages:
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
+    openAuthoring: '{{message}}'
+publish_mode: editorial_workflow
+media_folder: "static/images"
+public_folder: "/images"
+# media_library: '' configures media library intergrations
+# name: '' 
+# config: ''
+site_url: https://whispersofverses.com/admin/#
+#show_preview_links: true
+# search: false
+slug:
+  encoding: unicode
+  sanitize_replacement: "-"
+
+collections:
+  - name: 'Poems'
+    label: 'Poems'
+    label_singular: 'poem'
+    folder: '/content/posts/2024'
+    public_folder: "/posts/2024"
+    create: true
+    description: >
+      This Is where you will create new poems
+    slug: '{{slug}}'
+    summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
+    # view_filters:
+    #   - label: 'Poems posted by agum via cms'
+    #     field: title
+    #     pattern: 'This is post #'
+    #   - label: Posts Without Index
+    #     field: title
+    #     pattern: front matter post
+    #   - label: Drafts
+    #     field: draft
+    #     pattern: true
+    # view_groups:
+    #   - label: Year
+    #     field: date
+    #     pattern: \d{4}
+    #   - label: Drafts
+    #     field: draft
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
+
+      - { 
+          label: 'Publish Date',
+          name: 'date',
+          widget : 'datetime',
+          format: "YYYY-MM-DDTHH:mm:ssZ",
+          default: {{now}},
+        }
+      - { label: 'Description', name: 'description', widget: 'string', default: 'this is the post description' }
+      - { label: 'Cover Image', name: 'image', widget: 'image'   }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
+      - { 
+        label: 'author',
+        name: 'author',
+        widget: 'string',
+        }
+
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
