@@ -67,6 +67,7 @@ collections:
           choose_url: true, 
           widget: 'image',
           media_library: 'assets/images',
+          public_library: '/images'
         }
       - { label: 'Image caption', name: 'image caption', widget: 'string' }
       - { label: 'Post category', name: 'category', widget: 'string', default: 'sports' }
