@@ -10,7 +10,7 @@ backend:
     deleteMedia: Delete “{{path}}”
     openAuthoring: '{{message}}'
 publish_mode: editorial_workflow
-media_folder: "static/images"
+media_folder: "assets/images"
 public_folder: "/images"
 # media_library: '' configures media library intergrations
 # name: '' 
@@ -23,9 +23,9 @@ slug:
   sanitize_replacement: "-"
 
 collections:
-  - name: 'Poems'
-    label: 'Poems'
-    label_singular: 'poem'
+  - name: 'Posts'
+    label: 'posts'
+    label_singular: 'post'
     folder: '/content/posts/2024'
     public_folder: "/posts/2024"
     create: true
@@ -60,7 +60,7 @@ collections:
           default: {{now}},
         }
       - { label: 'Description', name: 'description', widget: 'string', default: 'this is the post description' }
-      - { label: 'Cover Image', name: 'image', widget: 'image'   }
+      - { label: 'Cover Image', name: 'image', choose_url: true, widget: 'image'   }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
       - { 
         label: 'author',
