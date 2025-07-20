@@ -3,5 +3,5 @@
   command = "hugo --minify --gc"
   
 [build.environment]
-  HUGO_VERSION = "0.121.2"
+  HUGO_VERSION = "v0.126.2+extended"
   HUGO_BASEURL = "https://olarastales.netlify.app/"
